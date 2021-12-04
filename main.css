@@ -31,30 +31,29 @@ h2
 {
     text-align: center;
     background-color: #fff;
-    min-width: 20rem;
+    width: 90%;
     height: 60%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; 
     border-radius: 1rem;
     position: relative;
-    background-image: url(images/bg-pattern-card.svg);
-    background-repeat: no-repeat;
+    /* background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat; */
 }
 
-/* .Pattern
+.Pattern
 {
     width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     left: 0;
-    position: absolute; 
-} */
+} 
 
 .Ppic
 {
     border-radius: 50%;
     border: 5px solid #fff;
-    margin-top: 5.5em;
+    margin-top: 5.5em; 
 }
 
 .info
@@ -83,11 +82,11 @@ h2
 .columns 
 {
     margin-left: auto;
-    margin-right: auto;
-    max-width: 16em;
+    margin-right: auto; 
+    max-width: 16em; 
     columns: 3;
     padding-top: 1.5em;
-}
+} 
 
 .Followers
 {
@@ -115,12 +114,4 @@ h2
 .attribution a 
 { 
     color: hsl(228, 45%, 44%); 
-}
-@media (min-width: 375px)
-{
-    .card
-    {
-        width: 25rem;
-        background-image: 25em;
-    }
 }
