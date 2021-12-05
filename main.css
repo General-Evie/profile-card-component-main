@@ -16,6 +16,7 @@ h1
 {
     font-family: 'Kumbh Sans';
     font-size: 1.25em;
+    margin-top: 2.5em;
     color: hsl(229, 23%, 23%);
 }
 
@@ -31,14 +32,14 @@ h2
 {
     text-align: center;
     background-color: #fff;
-    width: 90%;
+    min-width: 70%;
     height: 60%;
     margin-right: auto;
     margin-left: auto; 
     border-radius: 1rem;
     position: relative;
     /* background-image: url(images/bg-pattern-card.svg);
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;  */
 }
 
 .Pattern
@@ -51,9 +52,13 @@ h2
 
 .Ppic
 {
+    
     border-radius: 50%;
     border: 5px solid #fff;
-    margin-top: 5.5em; 
+    position: absolute;
+    top: 35.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .info
@@ -115,3 +120,5 @@ h2
 { 
     color: hsl(228, 45%, 44%); 
 }
+
+
