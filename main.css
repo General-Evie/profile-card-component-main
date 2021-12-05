@@ -8,8 +8,11 @@ html
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    /* background-image: url(images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat; */
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 40em, 40em;
+    background-position-y: -22em, 22em;
+    background-position-x: -27em, 10em;
 }
 
 h1
@@ -38,8 +41,6 @@ h2
     margin-left: auto; 
     border-radius: 1rem;
     position: relative;
-    /* background-image: url(images/bg-pattern-card.svg);
-    background-repeat: no-repeat;  */
 }
 
 .Pattern
@@ -121,4 +122,32 @@ h2
     color: hsl(228, 45%, 44%); 
 }
 
+@media (min-width: 376px)
+{
+    html 
+    {
+        background-size: 80em, 80em;
+        background-position-y: -40em, 30em;
+        background-position-x: -21em, 55em;
+    }
 
+    .card
+    {
+        width: 25em;
+    }
+
+    .Ppic
+    {
+        top: 38.5%;
+    }
+    
+    .columns
+    {
+        max-width: 20em;
+    }
+
+    .attribution
+    {
+        margin: 50px;
+    }    
+}
